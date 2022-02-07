@@ -55,7 +55,6 @@ class ShallowSizeIrTransformer(
     }
 
     private fun IrValueParameter.tryToGetSize(parentName: Name): Int {
-        pluginContext.referenceClass(this.type.classFqName!!)
         return type.let {
             when (true) {
                 it.isByte() -> 1
