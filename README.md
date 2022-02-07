@@ -9,7 +9,7 @@ _Compiler Plugin APIs are **experimental**! This plugin was tested with Kotlin *
 
 #### CLI compiler
 
-1. Get the compiler-plugin jar by either downloading or compiling the code yourself
+1. Get the **compiler-plugin** jar by either [downloading](https://github.com/ubuntuegor/shallow-size/releases) or compiling the code yourself
 2. Use the plugin
     ```shell
     kotlinc main.kt -include-runtime -d main.jar -Xplugin=<path to plugin jar>
@@ -17,7 +17,7 @@ _Compiler Plugin APIs are **experimental**! This plugin was tested with Kotlin *
    
 #### Gradle
 
-1. Get the compiler-plugin-embeddable jar by either downloading or compiling the code yourself
+1. Get the **compiler-plugin-embeddable** jar by either [downloading](https://github.com/ubuntuegor/shallow-size/releases) or compiling the code yourself
 2. Place the jar somewhere within your project
 3. Use the plugin
     ```kotlin
