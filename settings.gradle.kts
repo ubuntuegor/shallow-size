@@ -1,3 +1,3 @@
 
-rootProject.name = "shallow-size"
+rootProject.name = "shallowsize"
 include("compiler-plugin")

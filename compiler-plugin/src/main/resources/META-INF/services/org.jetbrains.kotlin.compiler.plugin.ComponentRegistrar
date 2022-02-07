@@ -1,1 +1,1 @@
-to.bnt.shallow_size.compiler_plugin.MyComponentRegistrar
+to.bnt.shallowsize.plugin.ShallowSizeComponentRegistrar

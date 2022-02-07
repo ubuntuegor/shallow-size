@@ -3,7 +3,7 @@ plugins {
 }
 
 allprojects {
-    group = "to.bnt.shallow-size"
+    group = "to.bnt.shallowsize"
     version = "1.0-SNAPSHOT"
 
     repositories {
